@@ -26,6 +26,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    background: #fff;
 }
 em {
     font-style: italic;
@@ -167,7 +168,7 @@ thead {
   }
 
 .page {
-    margin: 0 90px;
+    margin: 0;
 }
 
 .highlight {
@@ -352,8 +353,7 @@ footer {
     border-radius: 5px;
     position: sticky;
     bottom:0;
-    background-color:#fff;
-    height:15%;
+    background-color:#444;
 }
 footer p { margin: 0; }
 
