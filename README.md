@@ -1,7 +1,10 @@
 ![screenshot](screenshot.png)
 
-# Blue Penguin for pelican
+# Green Penguin for pelican
+
 A simple theme for pelican. Solarized pygments. Feeds support.
+Fork of Blue Penguin, changed color to green, and added few changes I
+Original theme: https://github.com/jody-frankowski/blue-penguin
 
 ## Settings
 ```python
@@ -9,6 +12,19 @@ A simple theme for pelican. Solarized pygments. Feeds support.
 
 # HTML metadata
 SITEDESCRIPTION = ''
+
+# Important variables
+
+TWITTER = <YOUR TWITTER HANDLE HERE>
+GITHUB = <YOUR GITHUB HANDLE HERE>
+LINKEDIN = <YOUR LINKEDIN HANDLE HERE>
+
+# Profile image path
+
+```
+# <pelican dir> content/images/profile.png
+
+```
 
 # all defaults to True.
 DISPLAY_HEADER = True

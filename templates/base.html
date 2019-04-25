@@ -10,8 +10,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     {# favicon #}
-    <link rel="shortcut icon" type="image/png" href="{{ SITEURL }}/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ SITEURL }}/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="{{ SITEURL }}/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ SITEURL }}/images/favicon.ico">
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css" type="text/css" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" type="text/css" />
     <meta name="generator" content="Pelican" />
@@ -51,7 +51,7 @@
         </nav>
         {% endif %}
         <div class="header_box">
-            <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+          <h1><img src="{{ SITEURL }}/images/profile.png"> <a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
             <hr/>
             {% if SITESUBTITLE %}
             <h2>{{ SITESUBTITLE }}</h2>
@@ -71,11 +71,11 @@
             <div class="clear"></div>
             <footer>
                 <p>
-                <a href="https://github.com/dervish13">GitHub</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ GITHUB }}">GitHub</a>
                 &middot;
-                <a href="http://twitter.com/dervis13_">Twitter</a>
+                <a target="_blank" rel="noopener noreferrer" href="http://twitter.com/{{ TWITTER }}">Twitter</a>
                 &middot;
-                <a href="http://linkedin.com/KRETENU_PROMENI_OVO">LinkedIN</a>
+                <a target="_blank" rel="noopener noreferrer" href="http://linkedin.com/in/{{ LINKEDIN }}">Linkedin</a>
             </footer>
             {% endif %}
 {% include 'analytics.html' %}
