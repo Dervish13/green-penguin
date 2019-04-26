@@ -8,7 +8,6 @@ Original theme: https://github.com/jody-frankowski/blue-penguin
 
 ## Settings
 ```python
-# all the following settings are *optional*
 
 # HTML metadata
 SITEDESCRIPTION = ''
