@@ -17,10 +17,10 @@ SITEDESCRIPTION = ''
 TWITTER = <YOUR TWITTER HANDLE HERE>
 GITHUB = <YOUR GITHUB HANDLE HERE>
 LINKEDIN = <YOUR LINKEDIN HANDLE HERE>
-
+```
 # Profile image path
-
-# <pelican dir> content/images/profile.png
+```
+# <pelican dir>/content/images/profile.png
 
 
 # all defaults to True.
