@@ -10,6 +10,7 @@ Original theme: https://github.com/jody-frankowski/blue-penguin
 ```python
 
 # HTML metadata
+
 SITEDESCRIPTION = ''
 
 # Important variables
@@ -18,10 +19,11 @@ TWITTER = <YOUR TWITTER HANDLE HERE>
 GITHUB = <YOUR GITHUB HANDLE HERE>
 LINKEDIN = <YOUR LINKEDIN HANDLE HERE>
 ```
-# Profile image path
+Profile image path
 ```
 # <pelican dir>/content/images/profile.png
-
+```
+```
 
 # all defaults to True.
 DISPLAY_HEADER = True
