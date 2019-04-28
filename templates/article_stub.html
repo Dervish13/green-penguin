@@ -18,7 +18,11 @@
 		{% endif %}
 
 
+        {% if articles_page %}
+                {{ article.content | truncate(250) }}
+        {% else %}
                 {{ article.content }}
+        {% endif %}
                 <div class="clear"></div>
 
                 <div class="info">
