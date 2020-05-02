@@ -36,6 +36,9 @@
                 {% if DISPLAY_RESUME or DISPLAY_RESUME is not defined %}
                 <li{% if output_file == "resume/index.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/resume/">Resume</a></li>
                 {% endif %}
+                {% if DISPLAY_VIDEOS or DISPLAY_VIDEOS is not defined %}
+                <li{% if output_file == "videos/index.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/videos/">Videos</a></li>
+                {% endif %}
                 {% if DISPLAY_PAGES_ON_MENU %}
                 {% for p in pages %}
                 <li{% if p == page %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
